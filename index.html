@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asynchronous</title>
+  <link rel="stylesheet" href="/styles/index.css">
+  <script defer src="/src/utils.js"></script>
+  <script defer src="/src/main.js"></script>
+  <!-- <script defer src="/src/settimeout.js"></script> -->
+  <!-- <script defer src="/src/promise.js"></script> -->
+  <script defer src="/src/async.js"></script>
+</head>
+<body>
+  <h1>非同期処理</h1>  
+  <h2>SetTimeout</h2>
+  <p>一定時間後に、処理を実行する非同期API</p>
+  <button id="settimeout_fire">実行</button>
+  <button id="settimeout_clear">クリア</button>
+  <div class="output" id="settimeout_output">
+  </div>
+  <h2>Promise</h2>
+  <p>非同期処理を作るためのオブジェクト</p>
+  <button id="promise_fire">実行</button>
+  <button id="promise_clear">クリア</button>
+  <div class="output" id="promise_output">
+  </div>
+  
+  <h2>async/await</h2>
+  <p>モダンな非同期処理</p>
+  <button id="async_fire">実行</button>
+  <button id="async_clear">クリア</button>
+  <div class="output" id="async_output">
+  </div>
+
+</body>
+</html>

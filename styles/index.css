@@ -1,0 +1,12 @@
+.output {
+  width: 300px;
+  min-height: 100px;
+  margin-top: 16px;
+  padding: 2px;
+  background-color: #fafafa;
+  border: 1px solid #bbb;
+}
+
+.output * {
+  margin: 0;
+}
